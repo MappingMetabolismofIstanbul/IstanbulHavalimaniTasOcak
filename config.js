@@ -113,7 +113,7 @@ var config = {
         },
         {
             id: '3',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/zV9CGBdJ/MEF-AAP-027-BAP-PART-II-2025-07-31-08-06-43.png',
@@ -195,36 +195,9 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-         {
+        {
             id: '6',
-            alignment: 'centered',
-            hidden: false,
-            title: '2000-2020 yılları arasında 3. Havalimanı Projesinde Toprağın Metabolik Dolaşımı: 2000 ve 2020 yılları arasında uydu fotoğraflarının çakıştırılması ile oluşturulan görselleştirme çalışmasında, havalimanı proje alanı ve kuzeyindeki toprak hareketliliği ve toprak akışları değişimi incelendiğinde açık maden ocakları ve sulak alanlarda gerçekleşen sürekli bir doldurma ve boşaltma hamlesi gözlemlenebilir. Bir başka deyişle, betonun dolaşımı ile toprağın dolaşımı kentin metabolizmasında birbirine dolanıktır.',
-            image: 'https://i.ibb.co/Fk26sn1M/simsiz-video-Clipchamp-ile-yap-ld-10.gif',
-            description: 'Metabolic FLow of Soil Metabolic Flows of Soil in the Context of the 3rd Airport Project (2000–2020): In the visualization study created by overlaying satellite images from the years 2000 and 2020, an examination of the airport project area and the changes in soil movement and flow in the northern part of the area reveals a continuous pattern of filling and emptying in open-pit mines and wetlands. In other words, the flow of concrete and the flow of soil are entangled within the metabolism of the city. ',
-            location: {
-                center: [28.859,41.268],
-                zoom: 14,
-                pitch: 40,
-                bearing: 0,
-                speed: 1,
-                curve: 2
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 0, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-         {
-            id: '6',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/WWf1VPF7/MEF-AAP-027-BAP-PART-II-2025-07-30-15-00-52.png',
@@ -259,6 +232,33 @@ var config = {
             location: {
                 center: [28.743,41.256],
                 zoom: 11,
+                pitch: 40,
+                bearing: 0,
+                speed: 1,
+                curve: 2
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 0, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+         {
+            id: '6',
+            alignment: 'centered',
+            hidden: false,
+            title: '2000-2020 yılları arasında 3. Havalimanı Projesinde Toprağın Metabolik Dolaşımı: 2000 ve 2020 yılları arasında uydu fotoğraflarının çakıştırılması ile oluşturulan görselleştirme çalışmasında, havalimanı proje alanı ve kuzeyindeki toprak hareketliliği ve toprak akışları değişimi incelendiğinde açık maden ocakları ve sulak alanlarda gerçekleşen sürekli bir doldurma ve boşaltma hamlesi gözlemlenebilir. Bir başka deyişle, betonun dolaşımı ile toprağın dolaşımı kentin metabolizmasında birbirine dolanıktır.',
+            image: 'https://i.ibb.co/Fk26sn1M/simsiz-video-Clipchamp-ile-yap-ld-10.gif',
+            description: 'Metabolic FLow of Soil Metabolic Flows of Soil in the Context of the 3rd Airport Project (2000–2020): In the visualization study created by overlaying satellite images from the years 2000 and 2020, an examination of the airport project area and the changes in soil movement and flow in the northern part of the area reveals a continuous pattern of filling and emptying in open-pit mines and wetlands. In other words, the flow of concrete and the flow of soil are entangled within the metabolism of the city. ',
+            location: {
+                center: [28.859,41.268],
+                zoom: 14,
                 pitch: 40,
                 bearing: 0,
                 speed: 1,
